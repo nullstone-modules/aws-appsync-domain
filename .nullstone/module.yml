@@ -1,0 +1,15 @@
+org_name: Evolve
+name: aws-appsync-domain-association
+friendly_name: AppSync Domain Association
+description: Capability to create an AppSync domain name for associating with a Graphql API
+category: capability
+subcategory: ingress
+provider_types:
+    - aws
+platform: appsync
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: false
