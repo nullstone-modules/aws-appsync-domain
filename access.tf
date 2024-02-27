@@ -4,7 +4,7 @@ resource "aws_iam_role_policy_attachment" "enable-api-association" {
 }
 
 resource "aws_iam_policy" "enable-api-association" {
-  name        = "enable-association"
+  name        = local.resource_name
   description = "Policy to enable api association with appsync domain"
   policy      = data.aws_iam_policy_document.enable-api-association.json
 }
